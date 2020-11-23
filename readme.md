@@ -1,5 +1,5 @@
 
-#Garblomatic
+# Garblomatic
 
 A simple Google-assisted tool for garbling text.
 
