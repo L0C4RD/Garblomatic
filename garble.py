@@ -175,10 +175,7 @@ class garbler(object):
 			return self.RETURN.OK
 
 		#If specified, check base language.
-		#if type(args.base_lang) is list:
-			
 		base_lang = args.base_lang.lower()
-		print (base_lang)
 		if base_lang not in self.languages:
 			print(f"Unknown language \"{args.base_lang}\"")
 			return self.RETURN.UNKNOWN_LANG

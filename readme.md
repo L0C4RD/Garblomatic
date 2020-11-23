@@ -7,6 +7,24 @@ A simple Google-assisted tool for garbling text.
 
 Garblomatic takes the contents of a text file, and recursively passes it through the Google Translate API. You can tell Garblomatic which translation settings you'd like it to use along the way, or simply let it pick a few at random. It's written for Python 3.7, and doesn't have any other dependencies beyond that.
 
+For example, the text:
+
+```
+Chestnuts roasting on an open fire
+Jack Frost nipping at your nose
+Yuletide carols being sung by a choir
+And folks dressed up like Eskimos
+```
+
+is garbled to become:
+
+```
+The chest is burning in the open fire
+Jack Frost sucks in her nose
+The Juliet song is sung by a singer
+And people dress like Eskimos
+```
+
 It is based on @JKomskis ' excellent [Google Garbler](https://github.com/JKomskis/GoogleGarbler) project, but streamlined for execution on a local machine.
 
 ## Usage
